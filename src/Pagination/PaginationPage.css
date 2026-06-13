@@ -1,0 +1,87 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  /* background: rgb(252, 249, 249); */
+}
+.heading {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+.searchBox {
+    margin-bottom: 1rem;
+}
+.searchBox input {
+  width: 28rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.6rem;
+  border: 0.1rem solid #ccc;
+  font-size: 1.4rem;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+  width: 100%;
+
+}
+.card {
+  width: 100%;
+  max-width: 50rem;
+  min-width: 28rem;
+
+  background-color: #ffffff;
+  padding: 1.6rem;
+  border-radius: 1rem;
+
+  box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-0.3rem);
+}
+
+.card p {
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card span {
+  font-weight: 600;
+}
+.pagination {
+  position: sticky;
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 2rem;
+}
+.pagination button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1.4rem;
+  border-radius: 0.6rem;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+.pageNumber {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.pagination button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+hr {
+  border: none;
+  height: 0.1rem;
+  background-color: #1a1616;
+  margin: 1.2rem 0;
+  width: 100%;
+}
