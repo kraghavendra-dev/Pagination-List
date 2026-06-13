@@ -2,13 +2,11 @@
 
 A responsive React.js application that demonstrates client-side pagination and search functionality. The project efficiently handles large datasets by dividing them into pages and allows users to filter data dynamically based on userId.
 
----
 
 ## 🚀 Live Demo
 
 https://pagination-list-alpha.vercel.app/
 
----
 
 ## ✨ Features
 
@@ -18,13 +16,11 @@ https://pagination-list-alpha.vercel.app/
 - Responsive UI with card-based layout
 - Smooth user experience with instant filtering
 
----
 
 ## 🛠️ Tech Stack
 
 React.js | JavaScript (ES6+) | CSS3
 
----
 
 ## ⚙️ Functionalities
 
@@ -34,7 +30,6 @@ React.js | JavaScript (ES6+) | CSS3
 - Handles state efficiently using React hooks
 - Responsive design with media queries
 
----
 
 ## 👨‍💻 Author
 
